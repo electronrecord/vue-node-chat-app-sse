@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="title">Welcome to my chat</h1>
+    <h1 class="title">Welcome to my chat :)</h1>
     <form v-if="!name"
           @submit.prevent="handleName"
           class="has-text-left">
